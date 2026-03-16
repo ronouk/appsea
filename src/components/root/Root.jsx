@@ -1,20 +1,42 @@
-import React from 'react';
 import Header from '../header/Header';
 import { Outlet } from 'react-router';
 import Footer from '../footer/Footer';
-import Hero from '../Hero/Hero';
-import Statistics from '../statistics/Statistics';
+import { AppsDataContext } from '../../utilities/AppsDataContext';
+import { useEffect, useState } from 'react';
 
 const Root = () => {
+
+    const [appsData, setAppsData] = useState([]);
+    const [loading, setLoading] = useState(true)
+
+    useEffect(() => {
+
+        const getAppsData = async () => {
+            try {
+                const res = await fetch("/appsData.json");
+
+                const data = await res.json();
+                setAppsData(data);
+            }
+            catch (error) {
+                console.error("Error fetching data", error)
+            }
+            finally {
+                setLoading(false)
+            }
+        };
+
+        getAppsData();
+
+    }, [])
+
     return (
-        <div>
-            <Header></Header>
-            <Hero></Hero>
-            <Statistics></Statistics>
-            <div className='w-5/6 lg:w-3/4 mx-auto'>
+        <div className='bg-gray-200'>
+            <AppsDataContext.Provider value={appsData}>
+                <Header></Header>
                 <Outlet></Outlet>
-            </div>
-            <Footer></Footer>
+                <Footer></Footer>
+            </AppsDataContext.Provider>
         </div>
     );
 };

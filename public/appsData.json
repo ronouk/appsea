@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1280px-Instagram_logo_2022.svg.png",
+    "title": "Instagram",
+    "category": "Social Media",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Instagram is a globally recognized social media platform that focuses on visual storytelling through photos, videos, and short-form Reels. It provides creators with a robust suite of editing tools, including filters and augmented reality effects, to share moments with friends or a global audience. The app continues to evolve with features like Stories and Shop, making it an essential tool for personal expression and digital marketing in the modern era.",
+    "size": 142,
+    "reviews": 1250,
+    "ratingAvg": 4.7,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 1800 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/WhatsApp_Logo_green.svg/1280px-WhatsApp_Logo_green.svg.png",
+    "title": "WhatsApp Messenger",
+    "category": "Communication",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "WhatsApp Messenger is the world's leading cross-platform messaging service, providing users with secure, end-to-end encrypted communication. Beyond simple text messaging, the app supports high-quality voice and video calls, document sharing, and location tracking. It has become a vital communication tool for both personal relationships and business operations, allowing for seamless group chats and status updates that keep users connected regardless of geographical boundaries or device types.",
+    "size": 48,
+    "reviews": 890,
+    "ratingAvg": 4.3,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 1100 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 3,
+    "image": "https://yt3.googleusercontent.com/i6KNxiy3gME-BulL4WnuGkTGqHuSYF8jl1WRn0rXftcJdSYK7dHKcJ3gLAaPc-KfhmLSYPwf824=s900-c-k-c0x00ffffff-no-rj",
+    "title": "LinkedIn",
+    "category": "Business",
+    "companyName": "LinkedIn Corp",
+    "description": "LinkedIn is the premier professional networking platform, designed to facilitate career growth, job searching, and industry-specific networking. Users can create a digital resume, showcase their skill sets, and connect with colleagues or potential employers worldwide. The app also serves as a hub for thought leadership, where professionals share insights, join industry groups, and access a vast library of educational content through LinkedIn Learning to enhance their professional capabilities.",
+    "size": 95,
+    "reviews": 420,
+    "ratingAvg": 4.1,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 500 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 4,
+    "image": "https://m.media-amazon.com/images/I/51rttY7a+9L.png",
+    "title": "Spotify",
+    "category": "Music & Audio",
+    "companyName": "Spotify AB",
+    "description": "Spotify revolutionized the music industry by offering a massive library of songs and podcasts accessible from any device. Its sophisticated algorithms provide users with highly personalized recommendations through features like Discover Weekly and Daily Mixes. Whether you are looking for top hits, niche genres, or exclusive podcast series, Spotify offers a seamless listening experience with offline playback capabilities and social sharing features that allow you to see what friends are listening to.",
+    "size": 82,
+    "reviews": 2100,
+    "ratingAvg": 4.4,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2500 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 5,
+    "image": "https://play-lh.googleusercontent.com/0oO5sAneb9lJP6l8c6DH4aj6f85qNpplQVHmPmbbBxAukDnlO7DarDW0b-kEIHa8SQ",
+    "title": "Discord",
+    "category": "Communication",
+    "companyName": "Discord Inc.",
+    "description": "Discord is a versatile community-building platform that originally gained popularity among gamers but has since expanded into a tool for all types of groups. It organizes communication into servers and channels, offering high-fidelity voice chat, low-latency screen sharing, and integrated text messaging. With its powerful API for bots and customizable roles, Discord allows users to create highly structured and interactive digital spaces for education, hobbies, or professional collaboration.",
+    "size": 74,
+    "reviews": 1150,
+    "ratingAvg": 4.5,
+    "downloads": 22000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1300 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 6,
+    "image": "https://yt3.googleusercontent.com/3b73AYEMMfa3SX5KJMeygio9smTPvrPrpicuQZbfQ_2DN7dV_ApiRM4CdYjSprEy1YYvt_9b=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Netflix",
+    "category": "Entertainment",
+    "companyName": "Netflix, Inc.",
+    "description": "Netflix is a global leader in the streaming entertainment industry, offering a massive catalog of original series, movies, and documentaries. Known for its 'binge-watching' culture, the app provides personalized content suggestions based on viewing history. With high-definition and 4K streaming options, as well as the ability to download content for offline viewing, Netflix provides a premium cinematic experience in the palm of your hand, catering to a wide variety of tastes and languages.",
+    "size": 98,
+    "reviews": 3200,
+    "ratingAvg": 4.2,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2800 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 7,
+    "image": "https://images.macrumors.com/t/2LpxkIa1xjjnPsLEOqhNt6MuGEI=/1600x0/article-new/2015/06/newitunes122logo.jpg",
+    "title": "Apple Music",
+    "category": "Music & Audio",
+    "companyName": "Apple Inc.",
+    "description": "Apple Music offers an expansive music streaming service integrated deeply into the Apple ecosystem. It features over 100 million songs, human-curated radio stations, and exclusive live performances. Users enjoy Lossless Audio and Spatial Audio with Dolby Atmos, providing a studio-quality listening experience. The app also includes synchronized lyrics and a dedicated classical music section, making it a comprehensive choice for audiophiles who value high-fidelity sound and a clean, ad-free interface.",
+    "size": 65,
+    "reviews": 210,
+    "ratingAvg": 3.8,
+    "downloads": 5000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 200 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 8,
+    "image": "https://yt3.googleusercontent.com/RhsrKM2HugvjGkbHXmo93C-q3qZLJk9hzfeJHmproNh4qb6UA5cC--l0mTZ2QuM-yXF1wYijgw=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Facebook",
+    "category": "Social Media",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Facebook remains a cornerstone of digital social interaction, allowing billions of users to stay connected with family, friends, and community groups. The platform offers a diverse array of features including a personalized News Feed, Marketplace for local commerce, and Events for social coordination. Despite shifting trends, its massive user base and integration with other Meta services make it a central hub for news, business promotion, and long-distance personal connections in the digital age.",
+    "size": 55,
+    "reviews": 4500,
+    "ratingAvg": 3.4,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2500 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 9,
+    "image": "https://m.media-amazon.com/images/I/61+nI2GbVCL.png",
+    "title": "Amazon Shopping",
+    "category": "Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "description": "The Amazon Shopping app provides access to a nearly limitless marketplace with millions of products available for fast delivery. Users can browse categories ranging from electronics to groceries, track orders in real-time, and utilize visual search to find products from photos. With integrated customer reviews and secure one-click checkout, the app streamlines the e-commerce experience. Prime members can additionally manage their benefits, ensuring they maximize the value of their subscriptions on the go.",
+    "size": 110,
+    "reviews": 1800,
+    "ratingAvg": 4.6,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1500 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/960px-Microsoft_logo.svg.png",
+    "title": "Microsoft Office",
+    "category": "Productivity",
+    "companyName": "Microsoft Corporation",
+    "description": "Microsoft Office for mobile combines Word, Excel, and PowerPoint into a single, unified productivity app. It allows users to create and edit documents, manage complex spreadsheets, and design compelling presentations directly from their smartphones. With built-in PDF tools and cloud synchronization via OneDrive, it ensures that your work is accessible and collaborative across all devices. This app is an essential companion for students and professionals who need powerful office tools outside of a traditional desk environment.",
+    "size": 125,
+    "reviews": 650,
+    "ratingAvg": 4.5,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 500 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 11,
+    "image": "https://www.webwise.ie/wp-content/uploads/2020/04/IMG0019.jpg",
+    "title": "Zoom",
+    "category": "Business",
+    "companyName": "Zoom Video Communications",
+    "description": "Zoom is a market-leading video conferencing tool that became synonymous with remote work and online learning. It offers high-definition video and audio, interactive screen sharing, and robust recording features. The app is built to handle everything from small team check-ins to massive webinars with thousands of participants. With persistent chat and whiteboarding tools, Zoom facilitates a highly collaborative digital environment, helping teams stay productive and connected regardless of their physical location.",
+    "size": 52,
+    "reviews": 1100,
+    "ratingAvg": 4.0,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 12,
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBUDu2rz06EjlN1L8I9rDKxNCFqtaMlSGUP7HME_3NO_IV_oo65qEDMhG0OONQl3Eh46hPAOwBr6X4jEKqiCHFgo-&format=source",
+    "title": "Notion",
+    "category": "Productivity",
+    "companyName": "Notion Labs, Inc.",
+    "description": "Notion is a highly customizable workspace that combines notes, tasks, wikis, and databases into a single application. Its unique block-based architecture allows users to build their own systems for project management, personal journaling, or company-wide knowledge bases. By offering a clean, distraction-free interface and powerful collaboration tools, Notion has become a favorite for both individual creators and large startups looking to streamline their workflows and consolidate information in a highly organized and searchable format.",
+    "size": 38,
+    "reviews": 320,
+    "ratingAvg": 4.4,
+    "downloads": 8000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 300 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 13,
+    "image": "https://replacehumans.ai/wp-content/uploads/2025/01/Untitled-design-2025-01-28T101702.381.png",
+    "title": "Canva",
+    "category": "Graphic & Design",
+    "companyName": "Canva Pty Ltd",
+    "description": "Canva democratizes graphic design by providing an intuitive drag-and-drop interface and a vast library of templates for social media, presentations, and marketing materials. It empowers non-designers to create professional-quality visuals in minutes, offering access to millions of stock photos, fonts, and illustrations. With collaborative features that allow teams to work on designs in real-time and an integrated social media scheduler, Canva is an all-in-one solution for brand building and creative content production.",
+    "size": 60,
+    "reviews": 940,
+    "ratingAvg": 4.8,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 900 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 14,
+    "image": "https://play-lh.googleusercontent.com/6am0i3walYwNLc08QOOhRJttQENNGkhlKajXSERf3JnPVRQczIyxw2w3DxeMRTOSdsY",
+    "title": "YouTube",
+    "category": "Entertainment",
+    "companyName": "Google LLC",
+    "description": "YouTube is the world’s largest video-sharing platform, serving as a primary source of entertainment, education, and news for billions of users. The app offers a personalized experience through advanced search algorithms and subscriptions, allowing users to discover everything from music videos to technical tutorials. With features like YouTube Shorts and live streaming, it provides creators with multiple ways to engage their audience, while viewers can enjoy a nearly infinite stream of content on any topic imaginable.",
+    "size": 130,
+    "reviews": 5600,
+    "ratingAvg": 4.1,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 4000 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 15,
+    "image": "https://cdn.britannica.com/34/267034-050-91CC3AFB/Pinterest-logo.jpg",
+    "title": "Pinterest",
+    "category": "Lifestyle",
+    "companyName": "Pinterest, Inc.",
+    "description": "Pinterest is a visual search and discovery engine used for finding lifestyle inspiration ranging from home decor and fashion to recipes and DIY projects. Users can 'pin' images and videos to themed boards, creating digital scrapbooks that help them plan future projects or visualize personal goals. The app’s visual discovery technology allows users to search for products and ideas directly from their camera, making it a powerful tool for aesthetic exploration and commerce-driven inspiration.",
+    "size": 45,
+    "reviews": 1400,
+    "ratingAvg": 4.6,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1200 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 16,
+    "image": "https://sf-static.tiktokcdn.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png",
+    "title": "TikTok",
+    "category": "Social Media",
+    "companyName": "ByteDance Ltd.",
+    "description": "TikTok is the leading destination for short-form mobile video, famous for its viral trends and powerful 'For You' recommendation algorithm. It provides users with a comprehensive set of easy-to-use editing tools, music overlays, and special effects, empowering a new generation of creators to express themselves. From educational 'hacks' to high-energy dance challenges, the app has fundamentally changed how content is consumed and shared globally, creating a fast-paced environment that keeps users engaged for hours.",
+    "size": 90,
+    "reviews": 6200,
+    "ratingAvg": 4.4,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 5000 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 17,
+    "image": "https://play-lh.googleusercontent.com/DsyWoouXk7psjF7DCG6MJj_rX9RR9-liQskZXoKvcqQIu_ybUm4F5RntxWh1IZAVSLI",
+    "title": "Duolingo",
+    "category": "Education",
+    "companyName": "Duolingo Inc.",
+    "description": "Duolingo is the world’s most popular language-learning platform, designed to make education accessible and fun through gamified lessons. It offers courses in over 40 languages, using science-based methods to improve long-term retention of reading, writing, and speaking skills. With features like daily streaks, leaderboards, and personalized practice, Duolingo encourages users to stay consistent. The app’s cheerful design and bite-sized lessons make it ideal for anyone looking to learn a new language during their daily commute or spare time.",
+    "size": 35,
+    "reviews": 1100,
+    "ratingAvg": 4.7,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 1200 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 18,
+    "image": "https://redditinc.com/hs-fs/hubfs/Reddit%20Inc/Graphics/Headers/Desktop/RedditInc_Header_Homepage.png",
+    "title": "Reddit",
+    "category": "News & Editorial",
+    "companyName": "Reddit Inc.",
+    "description": "Reddit is the 'front page of the internet,' composed of thousands of user-managed communities known as subreddits. These communities cover every imaginable interest, from breaking news and professional advice to niche hobbies and memes. Users can participate by voting on content, engaging in deep discussions, and sharing their own experiences. Reddit’s decentralized nature makes it a unique platform for finding authentic information, getting help with specific problems, and connecting with people who share your most obscure passions.",
+    "size": 68,
+    "reviews": 480,
+    "ratingAvg": 4.2,
+    "downloads": 10000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 350 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 19,
+    "image": "https://m.media-amazon.com/images/I/21kRx-CJsUL._h1_.png",
+    "title": "Twitch",
+    "category": "Entertainment",
+    "companyName": "Twitch Interactive, Inc.",
+    "description": "Twitch is the world’s leading live streaming platform for gamers and creative artists. It allows streamers to broadcast their gameplay or creative processes in real-time, while viewers interact through a highly dynamic live chat. Beyond gaming, Twitch has expanded into 'Just Chatting' categories, music performances, and live events. With a robust monetization system for creators and a deeply loyal community base, Twitch offers an unparalleled level of interactivity that distinguishes it from traditional video-on-demand services.",
+    "size": 75,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 1000 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 20,
+    "image": "https://assets.mofoprod.net/network/images/slack.original_SS2PtGA.jpg",
+    "title": "Slack",
+    "category": "Business",
+    "companyName": "Slack Technologies",
+    "description": "Slack is a productivity-focused communication tool that organizes workplace interactions into dedicated channels. It aims to replace internal email by offering a faster, more organized way to share files, integrate external apps, and hold quick huddles. With its advanced search functionality and custom notification settings, Slack helps teams stay aligned and focused. Whether you are a small startup or a global enterprise, Slack provides the digital infrastructure needed to keep complex projects moving and maintain team culture in a remote or hybrid setting.",
+    "size": 42,
+    "reviews": 150,
+    "ratingAvg": 4.0,
+    "downloads": 5000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 120 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 21,
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxhfRM_njI7Pu32CmBLMdmnnzF6MdNHw4MJwlr.tSWLA2EJBQdZh0p3nNDzGvX2F6NoIc9ZSQ9xJqsGEg5bouOnA-&format=source",
+    "title": "Adobe Photoshop Express",
+    "category": "Photo & Video",
+    "companyName": "Adobe Inc.",
+    "description": "Adobe Photoshop Express is a streamlined, mobile-first photo editor that brings the power of Adobe's legendary editing suite to your pocket. It allows users to perform quick fixes like blemish removal and perspective correction, while also offering advanced features like selective edits and noise reduction. Designed for the on-the-go creative, it facilitates high-quality photo transformations in seconds, making it the perfect tool for social media influencers and photography enthusiasts who need professional results without a desktop setup.",
+    "size": 210,
+    "reviews": 1400,
+    "ratingAvg": 4.6,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 800 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 22,
+    "image": "https://www.google.com/maps/about/images/icons/maps_512dp.png",
+    "title": "Google Maps",
+    "category": "Navigation",
+    "companyName": "Google LLC",
+    "description": "Google Maps is an essential navigation tool that provides accurate, real-time GPS tracking and traffic updates for commuters worldwide. Beyond turn-by-turn directions, the app offers deep insights into local businesses, including reviews, hours of operation, and indoor maps. With features like Street View and offline maps, it ensures that users can find their way in unfamiliar territory without a stable data connection. It has become a comprehensive travel companion, helping millions of people discover the best routes and local attractions every day.",
+    "size": 185,
+    "reviews": 3200,
+    "ratingAvg": 4.3,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 1400 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 23,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZfLuviePOqQJ1yuhvxr80AsqV91Btr2rqZw&s",
+    "title": "GitHub Mobile",
+    "category": "Developer Tools",
+    "companyName": "GitHub, Inc.",
+    "description": "GitHub Mobile allows developers to stay connected to their repositories and collaborate with their teams from anywhere. The app provides a native interface for triaging issues, reviewing code changes, and merging pull requests, ensuring that critical project work doesn't stall when developers are away from their workstations. With customizable notifications and a seamless mobile workflow, GitHub Mobile brings the world's most popular software development platform to the mobile era, making it indispensable for modern engineering teams and open-source contributors.",
+    "size": 65,
+    "reviews": 450,
+    "ratingAvg": 4.7,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 300 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 24,
+    "image": "https://play-lh.googleusercontent.com/EhIjbN-_7eOO6XbcXAosX7elY-9CRxCOm5J6rLZ3pQGF7Yev6Av2kFdbxMH_RV2Hhnc",
+    "title": "Shazam",
+    "category": "Music & Audio",
+    "companyName": "Apple Inc.",
+    "description": "Shazam is a magical music discovery app that can identify any song playing in your environment in just a few seconds. By simply tapping the main button, the app listens to the audio and provides the track title, artist name, and synchronized lyrics. It integrates seamlessly with major streaming platforms like Apple Music and Spotify, allowing users to build playlists automatically. With historical charts and personalized recommendations, Shazam is the ultimate tool for music lovers who never want to miss a new favorite song.",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.8,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 900 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 25,
+    "image": "https://yt3.googleusercontent.com/Y_G09q2it3FZMrbbxwLjgMjSanR1mZAsXnEE6g6ZaBXlq2dLIRsKqSrGTCMuiyvvVavu-xFvPEc=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Udemy",
+    "category": "Education",
+    "companyName": "Udemy, Inc.",
+    "description": "Udemy is a leading global marketplace for online learning, offering over 200,000 courses across a massive spectrum of professional and personal development topics. The mobile app allows students to download course materials for offline viewing, making it easy to learn new skills during travel or downtime. With lifetime access to purchased content and a wide array of expert instructors, Udemy empowers learners to take control of their career trajectories by mastering everything from advanced programming languages to creative arts and business management techniques.",
+    "size": 92,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+    "downloads": 22000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 500 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 26,
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174874.png",
+    "title": "Trello",
+    "category": "Productivity",
+    "companyName": "Atlassian",
+    "description": "Trello is a visual collaboration tool that uses boards, lists, and cards to help teams organize their projects in a flexible and rewarding way. It provides an immediate overview of project status, allowing users to assign tasks, set due dates, and add detailed comments to specific work items. Trello’s intuitive Kanban-style interface makes it a favorite for both individual task management and complex corporate roadmaps, ensuring that everyone involved stays aligned and that no critical deadlines or information fall through the cracks.",
+    "size": 58,
+    "reviews": 600,
+    "ratingAvg": 4.5,
+    "downloads": 18000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 45 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 400 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 27,
+    "image": "https://sm.pcmag.com/pcmag_me/review/h/hellofresh/hellofresh-meal-delivery-service_z9wg.jpg",
+    "title": "HelloFresh",
+    "category": "Food & Drink",
+    "companyName": "HelloFresh SE",
+    "description": "HelloFresh is the world’s leading meal kit provider, designed to make home cooking convenient and stress-free. The mobile app allows users to manage their weekly menus, choosing from a wide variety of chef-curated recipes that feature fresh, pre-portioned ingredients. By eliminating the need for grocery shopping and meal planning, HelloFresh helps busy families and individuals enjoy healthy, delicious dinners in about 30 minutes. The app also features step-by-step cooking instructions and timers, making it an indispensable kitchen assistant for home cooks of all skill levels.",
+    "size": 115,
+    "reviews": 820,
+    "ratingAvg": 4.2,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 240 },
+      { "name": "5 star", "count": 400 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 28,
+    "image": "https://yt3.googleusercontent.com/4DV2gISqGok39d4KMW0imN_cqCuVcmQINpvArV0nE-PMwXpQGdcS2Ycj4Qb0dO5YabKu1fXO_Bw=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Waze",
+    "category": "Navigation",
+    "companyName": "Google LLC",
+    "description": "Waze is a community-driven navigation app that helps millions of drivers outsmart traffic every day. By crowdsourcing real-time information from users on the road, Waze provides the fastest possible routes while warning about accidents, police presence, and road hazards. The app also features integrated music controls and a fuel-price tracker, making it a comprehensive tool for reducing travel time and costs. Its social-friendly interface and highly accurate ETA predictions have made it the preferred choice for daily commuters looking to avoid gridlock and optimize their journeys.",
+    "size": 88,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 700 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 29,
+    "image": "https://yt3.googleusercontent.com/pz9t78GdesHdf-KtYqoXVWLNlYApCZxTKxH6a5P76kYbdkWyukPPVAswDeqkiaAhxWPA5CHueQ=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Dropbox",
+    "category": "Productivity",
+    "companyName": "Dropbox, Inc.",
+    "description": "Dropbox is a secure cloud storage solution that keeps your files organized and accessible across all of your devices. The app allows for seamless file sharing, automatic photo backups, and collaborative editing on shared documents. With advanced security features like two-factor authentication and file recovery, Dropbox ensures that your data remains safe and protected. It is a critical tool for both individuals and businesses who need a reliable way to store and share information, facilitating a more streamlined digital life and productive professional collaboration.",
+    "size": 130,
+    "reviews": 750,
+    "ratingAvg": 4.1,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 300 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 30,
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxneokBJ0GAZvX9IDejsY5F91GKhlXIJ7xAXi4f3XT1aoyW1iZvDF9aNqva9FeD0JP_q5WXbqJGy6o.YRY7JH.gE-&format=source",
+    "title": "Adobe Lightroom Mobile",
+    "category": "Photo & Video",
+    "companyName": "Adobe Inc.",
+    "description": "Adobe Lightroom Mobile is a professional-grade photo editor and camera app that empowers you to capture and edit stunning images with ease. It features advanced editing tools like curves, color grading, and selective adjustments, all within an intuitive mobile interface. Users can use AI-powered presets to transform their photos with a single tap or dive deep into manual controls for precise adjustments. With cloud synchronization, your edits are automatically applied across all your devices, making it a favorite for photography enthusiasts and professionals who demand high-quality results.",
+    "size": 195,
+    "reviews": 1250,
+    "ratingAvg": 4.7,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 800 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 31,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Microsoft_Office_Teams_%282025%E2%80%93present%29.svg/1280px-Microsoft_Office_Teams_%282025%E2%80%93present%29.svg.png",
+    "title": "Microsoft Teams",
+    "category": "Business",
+    "companyName": "Microsoft Corporation",
+    "description": "Microsoft Teams is the ultimate hub for teamwork in Microsoft 365, combining chat, meetings, calling, and collaboration into a single, secure app. It allows teams to organize conversations into specific channels, share files in real-time, and hold high-definition video meetings with up to thousands of participants. Teams integrates deeply with the entire Microsoft ecosystem, enabling seamless collaboration on documents without leaving the app. With enterprise-grade security and compliance, it is the preferred choice for organizations looking to foster a productive hybrid work environment.",
+    "size": 150,
+    "reviews": 2100,
+    "ratingAvg": 4.0,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 700 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 32,
+    "image": "https://penchi.jp/wp-content/uploads/2016/02/evernoteEvernote.png",
+    "title": "Evernote",
+    "category": "Productivity",
+    "companyName": "Evernote Corporation",
+    "description": "Evernote is a versatile note-taking app designed to help you capture and organize your ideas, projects, and to-do lists in one central location. Users can create notes using text, images, audio, and web clippings, all of which are searchable and accessible across multiple devices. The app’s 'Home' dashboard provides a central view of your most relevant information, while tags and notebooks help you keep everything structured. With features like document scanning and PDF annotation, Evernote is a powerful digital brain for anyone who needs to manage information efficiently.",
+    "size": 78,
+    "reviews": 850,
+    "ratingAvg": 4.3,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 400 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 33,
+    "image": "https://www.wolframalpha.com/_next/static/images/share_9016222d6b2fadaacc58b484cb3edace.png",
+    "title": "WolframAlpha",
+    "category": "Education",
+    "companyName": "Wolfram Group",
+    "description": "WolframAlpha is a unique 'computational intelligence engine' that answers complex questions and generates reports using a vast database of expert-level knowledge. Unlike traditional search engines, it computes specific answers in mathematics, physics, engineering, and chemistry, often providing step-by-step solutions for difficult equations. It is an invaluable resource for students, scientists, and professionals, offering precise data visualizations and statistical analysis for thousands of different types of queries across hundreds of technical domains, making it a must-have for anyone serious about STEM subjects.",
+    "size": 120,
+    "reviews": 320,
+    "ratingAvg": 4.6,
+    "downloads": 8000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 200 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 34,
+    "image": "https://miro.medium.com/v2/resize:fit:1400/0*rBbtJjG2zW1j9rNY.jpeg",
+    "title": "Flipboard",
+    "category": "News & Editorial",
+    "companyName": "Flipboard, Inc.",
+    "description": "Flipboard is a personalized news aggregator that allows you to create your own digital magazine based on your interests. By selecting topics like technology, travel, and politics, the app curates high-quality articles and videos from top global publishers. Users can 'flip' content into their own custom magazines to share with friends or save for later reading. With its beautiful, magazine-like interface and intuitive navigation, Flipboard provides a visually engaging and efficient way to stay informed and inspired by the stories that matter most to you every day.",
+    "size": 42,
+    "reviews": 680,
+    "ratingAvg": 4.2,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 300 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 35,
+    "image": "https://play-lh.googleusercontent.com/BPgJq2T40gw219T9wcXPld0urrii1L9WwGZ0xovChB7fy-KFfVlKPE6oT5D7lIeQRecJ",
+    "title": "LastPass",
+    "category": "Utilities",
+    "companyName": "LastPass",
+    "description": "LastPass is a secure password manager that simplifies your online security by storing all your passwords and sensitive information in an encrypted vault. The app automatically fills in your login credentials as you browse the web, ensuring that you never have to remember a complex password again. With a built-in password generator and security score feature, LastPass helps you create strong, unique passwords for every account. By using industry-standard encryption and multi-factor authentication, it provides a safe and convenient way to manage your digital identity and protect your sensitive data.",
+    "size": 55,
+    "reviews": 540,
+    "ratingAvg": 4.4,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 300 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 36,
+    "image": "https://lh5.googleusercontent.com/proxy/e153TMS98Ouf473t-iGM_m8lrSckHmcNJhTQ_aoOzgADfYEbtgwiNLf_WZKaF__--iEJPCoJoC5KXTP7YfWmPS71Xze9SV1Ps-7277T_0WFlmp4biMTN2pt4ktlsDK8HSbRjSxqAk36ZCGSRuTIKOufowKrXAbAG",
+    "title": "SoundCloud",
+    "category": "Music & Audio",
+    "companyName": "SoundCloud Global Ltd.",
+    "description": "SoundCloud is the world’s largest open audio platform, powered by a connected community of independent creators and listeners. It allows users to discover new music, listen to podcasts, and follow emerging artists who are shaping the future of sound. SoundCloud is unique because it hosts content you won’t find anywhere else, including raw demos and experimental tracks. Users can interact with creators through timed comments and share their favorite discoveries globally, making it a premier destination for musical innovation and independent talent seeking an audience.",
+    "size": 72,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 600 }
+    ],
+    "trending": true
+  },
+  {
+    "id": 37,
+    "image": "https://www.pngall.com/wp-content/uploads/13/Fitbit-Logo.png",
+    "title": "Fitbit",
+    "category": "Health & Fitness",
+    "companyName": "Google LLC",
+    "description": "The Fitbit app is a comprehensive health companion that tracks your daily activity, workouts, heart rate, and sleep patterns. It provides personalized insights and guidance to help you reach your health goals, whether you are training for a marathon or just trying to stay active. Users can log their food and water intake, participate in community challenges, and track their long-term progress with detailed charts. The app also features mindfulness sessions to support your overall well-being, providing a holistic view of your health and fitness journey every single day.",
+    "size": 145,
+    "reviews": 1300,
+    "ratingAvg": 4.1,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 500 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 38,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Pocket_logo.png",
+    "title": "Pocket",
+    "category": "News & Editorial",
+    "companyName": "Mozilla Corporation",
+    "description": "Pocket is the best place to save great content from across the web so you can view it later in a clean, distraction-free environment. Whether it's an article, video, or long-form story, Pocket saves it all and syncs it across your phone, tablet, and computer. The app's 'Listen' feature can even read your saved articles out loud, making it perfect for commutes. With curated recommendations and a beautiful reading interface, Pocket ensures that you never miss an interesting story because you were too busy at the moment it was published.",
+    "size": 32,
+    "reviews": 420,
+    "ratingAvg": 4.7,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 75 },
+      { "name": "5 star", "count": 300 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 39,
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBcXm6WqCy1Yzd43klSX2PfqgmY0nUYGFHUr38YD1FbI_kD4vsniJQ9cfEtzyPMTGOhMwvoczQe4oU5EVZOKC9b0-&format=source",
+    "title": "Adobe Acrobat Reader",
+    "category": "Productivity",
+    "companyName": "Adobe Inc.",
+    "description": "Adobe Acrobat Reader is the world’s most trusted PDF viewer, allowing you to view, sign, and annotate documents with ease. The app’s 'Liquid Mode' provides a superior reading experience by automatically adjusting text to fit your mobile screen perfectly. Users can fill out digital forms, add electronic signatures, and share PDFs for review with a single link. With integration into major storage services like Dropbox and Google Drive, Acrobat Reader ensures that you can manage your most important documents from anywhere, making it a critical tool for professional workflows.",
+    "size": 220,
+    "reviews": 2400,
+    "ratingAvg": 4.4,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 1000 }
+    ],
+    "trending": false
+  },
+  {
+    "id": 40,
+    "image": "https://sm.pcmag.com/pcmag_me/review/d/disney/disney_v3q1.jpg",
+    "title": "Disney+",
+    "category": "Entertainment",
+    "companyName": "Disney Streaming",
+    "description": "Disney+ is the dedicated streaming home for movies and shows from Disney, Pixar, Marvel, Star Wars, and National Geographic. It offers an extensive library of classic films and exclusive originals, providing high-quality entertainment for viewers of all ages. The app supports 4K UHD streaming with Dolby Vision on compatible devices, ensuring a cinematic experience at home. Users can download content for offline viewing and create multiple profiles, making it a central part of modern home media and a top choice for families seeking a comprehensive catalog of beloved stories.",
+    "size": 175,
+    "reviews": 1800,
+    "ratingAvg": 4.5,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1000 }
+    ],
+    "trending": true
+  }
+]
