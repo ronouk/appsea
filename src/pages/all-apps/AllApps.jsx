@@ -39,7 +39,10 @@ const AllApps = () => {
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto gap-6'>
                 {
                     allAppsData.map((singleApp, index) => (
-                        <AppCard key={index} singleApp={singleApp}></AppCard>
+                        <NavLink key={index} to={`/appdetails/${singleApp.id}`}>
+                            <AppCard singleApp={singleApp}></AppCard>
+                        </NavLink>
+
                     ))
 
                 }

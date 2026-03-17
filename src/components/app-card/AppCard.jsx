@@ -9,7 +9,7 @@ const AppCard = ({ singleApp }) => {
     const [appImage, setAppImage] = useState(image);
     return (
         <div className=''>
-            <div className='h-full p-2 rounded-lg space-y-4 mx-auto bg-white flex flex-col'>
+            <div className='h-full p-2 rounded-lg space-y-4 mx-auto bg-white hover:bg-orange-50 transition flex flex-col'>
                 <div className='bg-gray-200 rounded-xl p-4'>
                     <img className='h-36 mx-auto rounded-xl object-contain'
                         src={appImage}
