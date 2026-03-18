@@ -1,17 +1,42 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaDownload, FaStar, FaThumbsUp } from 'react-icons/fa';
 import { useLoaderData, useNavigate } from 'react-router';
+import { toast } from 'react-toastify';
 import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
+import { addInstalledApptoStorage } from '../../utilities/localStorage';
 
 const AppDetails = () => {
+
+    const [isInstalled, setIsInstalled] = useState(false);
 
     const navigate = useNavigate();
     const selectedApp = useLoaderData();
 
-
-    const { category, companyName, description, downloads, image, ratingAvg, ratings, reviews, size, title } = selectedApp;
+    const { id, category, companyName, description, downloads, image, ratingAvg, ratings, reviews, size, title } = selectedApp;
 
     const reversedRatings = ratings ? [...ratings].reverse() : [];
+
+    //handle installation
+
+    useEffect(() =>{
+        const installedApps = JSON.parse(localStorage.getItem("installedApps"));
+
+        if(installedApps.includes(id)){
+            setIsInstalled(true)
+        }
+    },[])
+
+    const handleInstall = () => {
+        const installation = addInstalledApptoStorage(id);
+
+        if(installation){
+            setIsInstalled(true)
+            toast(<span className='text-green-700 font-bold'>{title} installed Successfully</span>)
+        }
+        else{
+            toast(<span className='text-red-700 font-bold'>{title} already installed</span>)
+        };
+    }
 
     return (
         <div className='w-5/6 lg:w-3/4 mx-auto py-10'>
@@ -47,7 +72,9 @@ const AppDetails = () => {
                                 </div>
 
                             </div>
-                            <button className='bg-[#00D390] hover:bg-[#02a471] transition px-3 py-2 rounded-md text-white cursor-pointer'>Install Now ({size} MB)</button>
+                            <button
+                            onClick={() => handleInstall()}
+                            className={`bg-[#00D390] hover:bg-[#02a471] transition px-3 py-2 rounded-md text-white cursor-pointer ${isInstalled ? 'bg-gray-400 hover:bg-gray-500' : ""}`}>{isInstalled ? "Installed" : "Install Now"} ({size} MB)</button>
                         </div>
                     </div>
                 </div>

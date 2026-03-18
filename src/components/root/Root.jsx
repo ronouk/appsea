@@ -3,6 +3,7 @@ import { Outlet } from 'react-router';
 import Footer from '../footer/Footer';
 import { AppsDataContext } from '../../utilities/AppsDataContext';
 import { useEffect, useState } from 'react';
+import { ToastContainer } from 'react-toastify';
 
 const Root = () => {
 
@@ -39,6 +40,8 @@ const Root = () => {
                 </div>
                 <Footer></Footer>
             </AppsDataContext.Provider>
+
+            <ToastContainer />
         </div>
     );
 };

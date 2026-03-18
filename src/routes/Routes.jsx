@@ -5,6 +5,7 @@ import AllApps from "../pages/all-apps/AllApps";
 import AppDetails from "../pages/single-app/AppDetails";
 import PageNotFound from "../pages/page-not-found/PageNotFound";
 import AppNotFound from "../pages/app-not-found/AppNotFound";
+import Installation from "../pages/Installation/Installation";
 
 export const router = createBrowserRouter([
     {
@@ -39,6 +40,22 @@ export const router = createBrowserRouter([
                             throw new Error("App not found", { status: 404 })
                         }
                         return selectedApp
+                    }
+            },
+
+            {
+                path: "/installation",
+                Component: Installation,
+                loader:
+                    async () => {
+                        const response = await fetch("/appsData.json");
+
+                        if (!response.ok) {
+                            throw new Error("Failed to fetch data");
+                        }
+
+                        return await response.json();
+
                     }
             },
 
