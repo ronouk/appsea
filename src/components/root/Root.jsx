@@ -31,10 +31,12 @@ const Root = () => {
     }, [])
 
     return (
-        <div className='bg-gray-200'>
+        <div className='bg-gray-200 flex flex-col min-h-screen'>
             <AppsDataContext.Provider value={appsData}>
                 <Header></Header>
-                <Outlet></Outlet>
+                <div className='flex flex-1'>
+                    <Outlet></Outlet>
+                </div>
                 <Footer></Footer>
             </AppsDataContext.Provider>
         </div>

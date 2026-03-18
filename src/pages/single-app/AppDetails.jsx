@@ -5,13 +5,13 @@ import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'rec
 
 const AppDetails = () => {
 
-    const selectedApp = useLoaderData();
     const navigate = useNavigate();
+    const selectedApp = useLoaderData();
 
 
     const { category, companyName, description, downloads, image, ratingAvg, ratings, reviews, size, title } = selectedApp;
 
-    const reversedRatings = [...ratings].reverse();
+    const reversedRatings = ratings ? [...ratings].reverse() : [];
 
     return (
         <div className='w-5/6 lg:w-3/4 mx-auto py-10'>
@@ -74,7 +74,7 @@ const AppDetails = () => {
                         activeBar={{ fill: '#048c1b', cursor: "pointer" }}
                         radius={[0, 5, 5, 0]}>
                     </Bar>
-                    <Tooltip></Tooltip>
+                    <Tooltip cursor={false}></Tooltip>
 
                 </BarChart>
 
