@@ -4,7 +4,7 @@ import { NavLink } from 'react-router';
 
 const AppNotFound = () => {
     return (
-        <div className='w-5/6 lg:w-3/4 py-10 mx-auto flex flex-1'>
+        <div className='w-5/6 lg:w-3/4 py-10 mx-auto flex'>
             <div className='flex flex-col justify-center items-center flex-1 space-y-3'>
                 <img src={errorPageImage} width={320} alt="Page not found" />
                 <h1 className='text-3xl font-bold'>Oops, App not found!</h1>

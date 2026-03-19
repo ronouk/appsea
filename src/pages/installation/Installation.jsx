@@ -44,7 +44,7 @@ const Installation = () => {
 
     useEffect(() => {
 
-        const installedAppsData = allApps.filter(app => storedInstalledApps.includes(app.id))
+        const installedAppsData = allApps.filter(app => storedInstalledApps.includes(app.id));
         setInstalledApps(installedAppsData)
     }, [])
 

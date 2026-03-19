@@ -11,7 +11,7 @@ const TrendingApps = () => {
     // console.log(trendingAppsData);
 
     return (
-        <div className='py-16 text-center space-y-16'>
+        <div className='py-16 text-center space-y-16 w-5/6 lg:w-3/4 mx-auto'>
             <div className='space-y-4'>
                 <h1 className='text-4xl font-bold'>Trending Apps</h1>
                 <p className='text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>

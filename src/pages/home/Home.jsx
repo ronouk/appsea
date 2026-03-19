@@ -5,12 +5,10 @@ import Statistics from '../../components/statistics/Statistics';
 const Home = () => {
 
     return (
-        <div className=''>
+        <div className='w-full'>
             <Hero></Hero>
             <Statistics></Statistics>
-            <div className='w-5/6 lg:w-3/4 mx-auto'>
-                <TrendingApps></TrendingApps>
-            </div>
+            <TrendingApps></TrendingApps>
 
         </div>
     );

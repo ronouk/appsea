@@ -2,7 +2,7 @@ import React from 'react';
 
 const Statistics = () => {
     return (
-        <div className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] py-16'>
+        <div className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] py-16 w-full'>
             <div className='text-white space-y-16 w-3/4 mx-auto'>
                 <div className='text-center text-4xl font-bold capitalize'>
                     <h1>Trusted by millions, built for you</h1>

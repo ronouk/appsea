@@ -19,12 +19,12 @@ const AppDetails = () => {
     //handle installation
 
     useEffect(() =>{
-        const installedApps = JSON.parse(localStorage.getItem("installedApps"));
+        const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
 
-        if(installedApps.includes(id)){
+        if(id && installedApps.includes(id)){
             setIsInstalled(true)
         }
-    },[])
+    },[id])
 
     const handleInstall = () => {
         const installation = addInstalledApptoStorage(id);
