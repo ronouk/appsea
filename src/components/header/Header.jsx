@@ -45,7 +45,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <NavLink to="https://github.com/ronouk" target='_blank' className="btn text-white flex items-center gap-1 bg-linear-to-r from-purple-600 to-blue-500 hover:from-blue-600 hover:to-purple-700 transition-all duration-300"><FaGithub /> Contribute</NavLink>
+                    <NavLink to="https://github.com/ronouk" target='_blank' className="btn text-white flex items-center gap-1 bg-linear-to-r from-purple-600 to-blue-500 hover:from-blue-600 hover:to-purple-700 hover:transition duration-1000"><FaGithub /> Contribute</NavLink>
                 </div>
             </div>
         </div>

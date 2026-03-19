@@ -28,7 +28,7 @@ const TrendingApps = () => {
                 }
             </div>
             <NavLink to="/allapps">
-                <button className='btn text-white flex items-center gap-1 bg-linear-to-r from-purple-600 to-blue-500 hover:from-blue-600 hover:to-purple-700 transition-all duration-300 mx-auto'>Show All</button>
+                <button className='btn text-white flex items-center gap-1 bg-linear-to-r from-purple-600 to-blue-500 hover:from-blue-600 hover:to-purple-700 mx-auto hover:transition duration-1000 ease-in-out'>Show All</button>
             </NavLink>
         </div>
     );

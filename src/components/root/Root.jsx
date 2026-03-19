@@ -35,10 +35,10 @@ const Root = () => {
     }, [])
 
     return (
-        <div className='bg-gray-200 flex flex-col min-h-screen max-w-full'>
+        <div className='bg-gray-200 text-slate-900 flex flex-col min-h-screen max-w-full'>
             <AppsDataContext.Provider value={appsData}>
                 <Header></Header>
-                <div className='flex flex-1'>
+                <div className='flex flex-1 relative'>
                     {loading ?
                         <div className='flex items-center justify-center mx-auto'>
                             <FidgetSpinner

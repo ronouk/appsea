@@ -5,7 +5,7 @@ import Statistics from '../../components/statistics/Statistics';
 const Home = () => {
 
     return (
-        <div className='w-full'>
+        <div className='w-full flex flex-col flex-1'>
             <Hero></Hero>
             <Statistics></Statistics>
             <TrendingApps></TrendingApps>
