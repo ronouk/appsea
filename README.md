@@ -1,12 +1,15 @@
-# React + Vite
+##### Live Link:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Netlify: [https://appsea.netlify.app/](https://appsea.netlify.app/ "AppSea Netlify")
 
-Currently, two official plugins are available:
+Surge: [https://appsea.surge.sh](https://appsea.surge.sh "AppSea Surge")
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##### Package used:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. React router
+2. Daisy UI
+3. TailwindCSS
+4. Toastify
+5. React Loader Spinner
+6. React Icons
+7. Rechart

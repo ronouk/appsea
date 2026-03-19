@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaDownload, FaStar } from 'react-icons/fa';
 import { removeFromLocalStorage } from '../../utilities/localStorage';
+import { toast } from 'react-toastify';
 
 const InstalledAppCard = ({ singleApp, installedApps, setInstalledApps }) => {
 
@@ -10,27 +11,28 @@ const InstalledAppCard = ({ singleApp, installedApps, setInstalledApps }) => {
         removeFromLocalStorage(id)
         const newInstalledApps = installedApps.filter(app => app.id !== id)
         setInstalledApps(newInstalledApps);
+        toast(<span className='text-red-700 font-bold'>{title} uninstalled</span>)
     }
 
     return (
         <div>
             <div className='bg-white p-3 flex items-center justify-between'>
-                <div className='flex gap-4'>
+                <div className='flex gap-5 items-center'>
                     <div className='w-12'>
                         <img className='rounded' src={image} alt="" />
                     </div>
-                    <div className='flex flex-col justify-between'>
+                    <div className='flex flex-col gap-2'>
                         <h3 className='text-left text-sm font-semibold'>{title}</h3>
-                        <div className='flex gap-4'>
+                        <div className='flex gap-3 text-xs'>
                             <div className='text-green-500 flex items-center gap-2'>
                                 <FaDownload />
-                                <p className='text-sm font-semibold'>{downloads}</p>
+                                <p className='font-semibold'>{downloads}</p>
                             </div>
                             <div className='text-yellow-500 flex items-center gap-2'>
                                 <FaStar />
-                                <p className='text-sm font-semibold'>{ratingAvg}</p>
+                                <p className='font-semibold'>{ratingAvg}</p>
                             </div>
-                            <div className='text-[#627382] text-sm'>
+                            <div className='text-[#627382]'>
                                 {size} MB
                             </div>
                         </div>

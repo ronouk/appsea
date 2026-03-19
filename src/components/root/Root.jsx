@@ -35,7 +35,7 @@ const Root = () => {
     }, [])
 
     return (
-        <div className='bg-gray-200 flex flex-col min-h-screen max-w-full overflow-hidden'>
+        <div className='bg-gray-200 flex flex-col min-h-screen max-w-full'>
             <AppsDataContext.Provider value={appsData}>
                 <Header></Header>
                 <div className='flex flex-1'>
@@ -56,7 +56,7 @@ const Root = () => {
                 <Footer></Footer>
             </AppsDataContext.Provider>
 
-            <ToastContainer />
+            <ToastContainer autoClose={1000} />
         </div>
     );
 };
