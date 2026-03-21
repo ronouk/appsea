@@ -1,18 +1,66 @@
 import React from 'react';
 import { FaDownload, FaStar } from 'react-icons/fa';
 import { removeFromLocalStorage } from '../../utilities/localStorage';
-import { toast } from 'react-toastify';
+import Swal from 'sweetalert2';
 
 const InstalledAppCard = ({ singleApp, installedApps, setInstalledApps }) => {
 
     const { id, downloads, image, ratingAvg, size, title } = singleApp;
 
+
+
+    //sweetalert 2 : confirmation before uninstall
+
+    const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+            confirmButton: "btn btn-success",
+            cancelButton: "btn btn-danger",
+            
+        },
+        buttonsStyling: true
+    });
+
     const handleUninstall = (id) => {
-        removeFromLocalStorage(id)
-        const newInstalledApps = installedApps.filter(app => app.id !== id)
-        setInstalledApps(newInstalledApps);
-        toast(<span className='text-red-700 font-bold'>{title} uninstalled</span>)
+
+
+        swalWithBootstrapButtons.fire({
+            title: "Are you sure?",
+            html: `Do you want to uninstall <span class="font-bold">${title}</span>?`,
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Yes, uninstall!",
+            cancelButtonText: "No, cancel!",
+            reverseButtons: false
+        }).then((result) => {
+
+            if (result.isConfirmed) {
+
+                removeFromLocalStorage(id)
+                const newInstalledApps = installedApps.filter(app => app.id !== id)
+                setInstalledApps(newInstalledApps);
+
+                //fire the confirmation dialogue box
+                swalWithBootstrapButtons.fire({
+
+                    title: "Uninstalled!",
+                    html: `<span class="font-bold">${title}</span> has been uninstalled.`,
+                    icon: "success"
+                });
+
+            }
+
+            //fire the cancellation confirmation
+            else if (result.dismiss === Swal.DismissReason.cancel) swalWithBootstrapButtons.fire({
+                title: "Cancelled",
+                html: `<span class="font-bold">${title}</span> survived the uninstallation.`,
+                icon: "error"
+            });
+        });
+
+
     }
+
+
 
     return (
         <div>
