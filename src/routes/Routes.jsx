@@ -40,7 +40,9 @@ export const router = createBrowserRouter([
                             throw new Error("App not found", { status: 404 })
                         }
                         return selectedApp
-                    }
+                    },
+
+                hydrateFallbackElement: <span>Data Loading...</span> //to avoid hydration error
             },
 
             {
@@ -56,7 +58,8 @@ export const router = createBrowserRouter([
 
                         return await response.json();
 
-                    }
+                    },
+                hydrateFallbackElement: <span>Data Loading...</span>
             },
 
             // if page not found
